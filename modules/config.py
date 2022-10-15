@@ -8,7 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 que = {}
 admins = {}
+get_queue = {}
 aiohttpsession = aiohttp.ClientSession()
+
 
 # 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @UU_333 
 API_HASH = getenv("API_HASH", "XXXXX")
@@ -29,6 +31,8 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5352754419").split()))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/na3_y2")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/VN_444")
 
-# 𝐃𝐨 𝐍𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐞 𝐓𝐡𝐢𝐬 𝐋𝐢𝐧𝐞𝐬 // 𝐈𝐠𝐧𝐨𝐫𝐞 𝐓𝐡𝐢𝐬 (𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫) 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001288822269'))
+ASS_ID = int(getenv("ASS_ID", '2130437611'))
+
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/VN_444")
