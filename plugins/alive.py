@@ -41,24 +41,19 @@ async def start_(client: Client, message: Message):
 هلا يا عمري
   انا بوت لتشغيل الاغاني في المجموعات اعمل على سورس توم بمميزات عديدة 
  
- ┣★  نشكر كل مين اضاف بوتات سورس فينوم
- ┣★ [ᔕOᑌᖇᑕE Venom](http://t.me/VN_444)   
- ┣★ [ᗪᗴᐯ. TOᗰ 𖢅](http://t.me/UU_333) 
- ┣★ [Dev. Naytorgen 𖢅](http://t.me/a3_d57) 
+ ┣★  نشكر كل مين اضاف بوتات سورس فينوم 
+ ┣★ [ᗪᗴᐯ. TOᗰ 𖢅](http://t.me/G_l_M_1)  
  
  بص يا حب البوت شغال ب اوامر اجنبيه وعربية 🙈 بحبك 😊
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥇  Dev.Naytrogen  🥇", url=f"https://t.me/a3_d57")
-                       
-                ],[
                     InlineKeyboardButton(
-                        "💥  Dev,Tom 💞", url=f"http://t.me/UU_333")
+                        "💥  Dev,Tom 💞", url=f"http://t.me/G_l_M_1")
                ],[
                     InlineKeyboardButton(
-                        "💥 Channel source 💞", url=f"http://t.me/VN_444") 
+                        "💥 Channel source 💞", url=f"http://t.me/GevoMM") 
                ]
                 
            ]
@@ -91,10 +86,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 dev 💞", url=f"http://t.me/UU_333")
+                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 dev 💞", url=f"http://t.me/G_l_M_1")
                 ],[
                     InlineKeyboardButton(
-                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 channel 💞", url=f"http://t.me/VN_444")
+                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 channel 💞", url=f"http://t.me/GevoMM")
                 ]
             ]
         ),
